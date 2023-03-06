@@ -1,5 +1,7 @@
 package oop.this_super;
-
+/**
+ * 230306
+ */
 public class MainClass {
 
 	public static void main(String[] args) {
@@ -19,6 +21,28 @@ public class MainClass {
 		
 		Player p3 = new Player("전사3", 200);
 		p3.characterInfo();
+	
+		System.out.println("---------------------");
+		
+		p3.attack(p2);
+		p1.attack(p2);
+		p2.attack(p2);
+		
+		System.out.println("---------------------");
+		
+		Warrior w1 = new Warrior("전사 오정원");
+		w1.characterInfo();
+	
+		System.out.println("---------------------");
+	
+		Mage m1 = new Mage("Wiz");
+		m1.characterInfo();
+		
+		System.out.println("---------------------");
+		
+		Hunter h1 = new Hunter("hunt");
+		h1.characterInfo();
+	
 	}
 
 }
