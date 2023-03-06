@@ -1,4 +1,4 @@
-package oop.inherit.good;
+package oop.this_super;
 /** 
 230303 
  */
